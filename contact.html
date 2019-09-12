@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/4f81b693f0.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Title</title>
+</head>
+
+<body>
+    <!-- Start Here -->
+    <!-- NavBar -->
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+            <a href="" class="navbar-brand"><i class="fab fa-jedi-order fa-2x mr-2"></i>Orion</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="about.html" class="nav-link">About Us</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="services.html" class="nav-link">Careers</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="blog.html" class="nav-link">Blog</a>
+                    </li>
+                    <li class="nav-item active ">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Header -->
+    <header id="page-header4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 m-auto text-center">
+                    <h1>Contact Us</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, adipisci.</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="contact" class="py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card p-4">
+                        <div class="card-body">
+                            <h4>Get In Touch</h4>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, assumenda!</p>
+                            <h4>Adress</h4>
+                            <p>111 Mars st, California CA</p>
+                            <h4>Email</h4>
+                            <p>email#gmail.com</p>
+                            <h4>Phone</h4>
+                            <p>555-555-5555</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="card p-4">
+                        <div class="card-body">
+                            <h3 class="text-center">Please Fill Out This Form</h3>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="First Name">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Last Name">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Email">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Phone Number">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <textarea type="text" class="form-control" placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <input type="submit" value="Submit" class="btn btn-outline-danger btn-block">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer" class="text-center p-4  ">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+
+                    <p class="my-auto">Copyright &copy; <span id="year"></span></p>
+                </div>
+                <div class="col-md-6 ml-auto">
+                    <a href="#"><i class="fab fa-facebook-f fa-2x mx-1"></i></a>
+                    <a href="#"><i class="fab fa-twitter fa-2x mx-1"></i></a>
+                    <a href="#"><i class="fab fa-reddit-alien fa-2x mx-1"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+        //Get the Current year for the copyright
+        $('#year').text(new Date().getFullYear());
+
+        // $(document).ready(function () {
+        //             if ($(window).height() > 890) {
+        //                 $("#main-footer").addClass("fixed-bottom");
+
+        //             }
+        //         });
+        // $(document).ready(stickFooter);
+
+        // $(window).resize(stickFooter);
+
+        // function stickFooter() {
+        //     console.log('iambeingcalled');
+        //     if ($(window).height() > 890) {
+        //         $("#main-footer").addClass("fixed-bottom");
+
+        //     } else {
+        //         $("#main-footer").removeClass("fixed-bottom");
+        //     }
+        // }
+    </script>
+</body>
+
+</html>

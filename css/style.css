@@ -1,0 +1,175 @@
+body {
+    overflow-x: hidden;
+    /* padding-bottom:102px; */
+
+}
+
+footer {
+    /* margin-top: 5rem; */
+}
+
+
+.navbar .nav-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+
+}
+
+.navbar .nav-item.active {
+    border-left: rgb(255, 198, 11) 3px solid;
+}
+
+.carousel-item {
+    height: 450px;
+}
+
+.carousel-image-1 {
+    background: url(../img/mars1.jpg)no-repeat center center;
+}
+
+.carousel-image-2 {
+    background: url(../img/mars3.jpg)no-repeat center center/cover;
+}
+
+.carousel-image-3 {
+    background: url(../img/mars4.jpg)no-repeat center center/cover;
+}
+
+#home-heading {
+    position: relative;
+    min-height: 400px;
+    background: url(../img/marsoverlay.jpg)no-repeat center center/cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: #fff;
+
+}
+
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3)
+}
+
+#weWantYou {
+    height: 500px;
+}
+
+#video-play {
+    position: relative;
+    min-height: 200px;
+    background: url(../img/marsoverlay.jpg)no-repeat center center/cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: #fff;
+}
+
+#video-play a {
+    color: #fff;
+}
+
+#page-header {
+    height: 200px;
+    background: url("../img/mars4.jpg")no-repeat center center/cover;
+    /* background-position: 0 -340px; */
+    /* background-attachment: fixed; */
+
+    color: #fff;
+    border-bottom: 1px #eee solid;
+    padding-top: 50px;
+}
+
+#page-header2{
+    height: 200px;
+    background: url("../img/services.png")no-repeat center center/cover;
+    /* background-position: 0 -280px;
+    background-attachment: fixed; */
+    color: #fff;
+    border-bottom: 1px #eee solid;
+    padding-top: 50px;
+}
+#page-header3 {
+    height: 200px;
+    background: url("../img/mg1.jpg")no-repeat center center/cover;
+    /* background-position: 0 -280px; */
+    /* background-attachment: fixed; */
+    color: #fff;
+    border-bottom: 1px #eee solid;
+    padding-top: 50px;
+    position: relative;
+}
+#page-header4 {
+    height: 200px;
+    background: url("../img/mg5.jpg")no-repeat center center/cover;
+    /* background-position: 0 -280px; */
+    /* background-attachment: fixed; */
+    color: #fff;
+    border-bottom: 1px #eee solid;
+    padding-top: 50px;
+}
+
+
+
+#about-img {
+    height: 500px;
+    width: 500px;
+    margin-top: -50px;
+}
+
+.card-header:hover {
+    background-color: #6b6b6b !important;
+}
+
+#main-footer {
+    background: #000;
+    color: #fff;
+    
+}
+
+/* Style all font awesome icons */
+.fab {
+    padding: 10px 0;
+    font-size: 30px;
+    width: 55px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+footer a:hover .fab {
+    color: coral;
+    border: 2px solid coral;
+}
+
+#contact {
+    margin-bottom: 2rem;
+
+}
+#plan-a,#plan-b,#plan-c{
+    text-align: start;
+}
+
+/* Add a hover effect if you want */
+
+
+
+@media(max-width: 1200px) {
+    #about-img {
+        height: 300px;
+        width: 300px;
+    }
+
+}
+/* Blog Section */
+#page-header3 p,h1{
+    color:rgb(255, 255, 255);
+    font-weight: 500;
+   
+}
