@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 body {
     overflow-x: hidden;
     /* padding-bottom:102px; */
-
+    font-family: 'Roboto', sans-serif;
 }
 
 footer {
@@ -84,7 +86,7 @@ footer {
     padding-top: 50px;
 }
 
-#page-header2{
+#page-header2 {
     height: 200px;
     background: url("../img/services.png")no-repeat center center/cover;
     /* background-position: 0 -280px;
@@ -93,6 +95,7 @@ footer {
     border-bottom: 1px #eee solid;
     padding-top: 50px;
 }
+
 #page-header3 {
     height: 200px;
     background: url("../img/mg1.jpg")no-repeat center center/cover;
@@ -103,6 +106,7 @@ footer {
     padding-top: 50px;
     position: relative;
 }
+
 #page-header4 {
     height: 200px;
     background: url("../img/mg5.jpg")no-repeat center center/cover;
@@ -128,7 +132,7 @@ footer {
 #main-footer {
     background: #000;
     color: #fff;
-    
+
 }
 
 /* Style all font awesome icons */
@@ -152,7 +156,10 @@ footer a:hover .fab {
     margin-bottom: 2rem;
 
 }
-#plan-a,#plan-b,#plan-c{
+
+#plan-a,
+#plan-b,
+#plan-c {
     text-align: start;
 }
 
@@ -167,9 +174,11 @@ footer a:hover .fab {
     }
 
 }
+
 /* Blog Section */
-#page-header3 p,h1{
-    color:rgb(255, 255, 255);
+#page-header3 p,
+h1 {
+    color: rgb(255, 255, 255);
     font-weight: 500;
-   
+
 }
