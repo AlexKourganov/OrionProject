@@ -4,10 +4,17 @@ body {
     overflow-x: hidden;
     /* padding-bottom:102px; */
     font-family: 'Roboto', sans-serif;
+    
 }
 
-footer {
-    /* margin-top: 5rem; */
+
+#contact-fix{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.contact-footer{
+    margin-top: auto;
 }
 
 
@@ -153,7 +160,7 @@ footer a:hover .fab {
 }
 
 #contact {
-    margin-bottom: 2rem;
+   
 
 }
 
