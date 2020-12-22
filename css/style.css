@@ -156,6 +156,20 @@ body {
 .card-header:hover {
     background-color: #6b6b6b !important;
 }
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 35vh;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 
 #main-footer {
     background: #000;
