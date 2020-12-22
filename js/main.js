@@ -3,7 +3,7 @@ $(document).ready(stickFooter);
 $(window).resize(stickFooter);
 
 function stickFooter() {
-    console.log('iambeingcalled');
+    
     if ($(window).height() > 1400) {
         $("#main-footer").addClass("fixed-bottom");
 
@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
                  lazyImage.classList.remove("lazy");
                  lazyImage.classList.add("appear");
                  lazyImageObserver.unobserve(lazyImage);
-                 console.log(lazyImages);
+                //  console.log(lazyImages);
                }
              });
            },options);

@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://kit.fontawesome.com/4f81b693f0.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
         integrity="sha256-HAaDW5o2+LelybUhfuk0Zh2Vdk8Y2W2UeKmbaXhalfA=" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/style.css">
@@ -15,7 +14,6 @@
 </head>
 
 <body>
-    <!-- Start Here -->
     <!-- NavBar -->
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
         <div class="container">
@@ -44,7 +42,7 @@
             </div>
         </div>
     </nav>
-    <!-- Slider -->
+
     <section id="showcase">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -55,7 +53,7 @@
             <div class="carousel-inner">
                 <div class="carousel-item carousel-image-1 active">
                     <div class="container">
-                        <div class="carousel-caption  text-right mb-5">
+                        <div class="carousel-caption mb-5">
                             <h1 class="display-3">Explore</h1>
                             <p class="lead">We are here to explore the unknown, push the boundaries of what humans can
                                 do, advance the science and see how far can we go.</p>
@@ -75,7 +73,7 @@
                 </div>
                 <div class="carousel-item carousel-image-3">
                     <div class="container">
-                        <div class="carousel-caption  text-right mb-5">
+                        <div class="carousel-caption   mb-5">
                             <h1 class="display-3">Relax</h1>
                             <p class="lead">You are on mars! After a days work sit down and relax, enjoy the best views
                                 this planet has to offer</p>
@@ -92,7 +90,7 @@
             </a>
         </div>
     </section>
-    <!-- Home Section -->
+
     <section id="home-icons" class="py-5">
         <div class="container">
             <div class="row">
@@ -115,20 +113,24 @@
             </div>
         </div>
     </section>
+
     <!-- Home Heading -->
-    <section id="home-heading" class="p5 ">
-        <div class="dark-overlay">
-            <div class="row  align-items-center" style="height:400px">
-                <div class="col ">
+    <section id="home-heading">
+        <div class="container">
+
+            <div class="row align-items-center" style="height:400px">
+                <div class="col">
                     <div class="container pt-5 ">
-                        <h1>Lets Get Started</h1>
-                        <p class="d-none d-md-block">
+                        <h1 class="pb-3">Lets Get Started</h1>
+                        <p>
                             Join our amazing team of scientist and explorers and see what you can achieve.
                         </p>
                     </div>
                 </div>
+
             </div>
         </div>
+
     </section>
     <!-- Info Section -->
     <section id="info" class="py-3">
@@ -136,20 +138,21 @@
             <div class="row">
                 <div class="col-md-6 align-self-center text-center">
                     <i class="fas fa-user-astronaut fa-3x"></i>
-                    <h3>Recruiting</h3>
-                    <p>We are seeking brave individuals, who are not afraid of a dark empty space. Those who will go on
+                    <h3 class="pb-3">Recruiting</h3>
+                    <p class="pb-3">We are seeking brave individuals, who are not afraid of a dark empty space. Those who will go on
                         to explore unknown corners of the universe. Hard workers with all kinds of background.</p>
-                    <a href="services.html" class="btn btn-outline-danger btn-lg mb-2">Learn More</a>
+                    <a href="services.html" class="btn btn-outline-danger btn-lg mb-2 mb-3">Learn More</a>
                 </div>
                 <div class="col-md-6 align-self-center text-center">
-                    <img data-src="img/wewantyou.jpg" alt="we-want-you" class="img-fluid lazy" id="weWantYou" data-srcset="img/wewantyou.jpg 1920w, img/wewantyou-1500.jpg 1500w, img/wewantyou-1000.jpg 1000w, img/wewantyou-500.jpg 500w">
+                    <img src="img/placeholder.jpg" data-src="img/wewantyou.jpg" alt="we-want-you" class="img-fluid lazy" id="weWantYou"
+                        data-srcset="img/wewantyou.jpg 1920w, img/wewantyou-1500.jpg 1500w, img/wewantyou-1000.jpg 1000w, img/wewantyou-500.jpg 500w">
                 </div>
             </div>
         </div>
     </section>
     <!-- Video -->
     <section id="video-play">
-        <div class="dark-overlay">
+        <div class="container">
             <div class="row">
                 <div class="col">
                     <div class="container p-5">
@@ -162,29 +165,37 @@
                 </div>
             </div>
         </div>
+
+
     </section>
     <!-- Photos -->
     <section id="gallery" class="py-5">
         <div class="container">
-            <h1 class="text-center">Gallery</h1>
-            <p class="text-center">Check out Mars</p>
+            <h1 class="text-center black-color">Gallery</h1>
+            <p class="text-center gallery-text">Check out Mars</p>
             <div class="row mb-4">
                 <div class="col-md-4">
                     <a href="img/mg1.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="560"
                         data-width="560">
-                        <img data-src="img/mg1.jpg" alt="" class="img-fluid lazy" height="560px" data-srcset="img/mg1.jpg 1920w, img/mg1-1500.jpg 1500w, img/mg1-1000.jpg 1000w, img/mg1-500.jpg 500w">
+                        <img src="img/placeholder.jpg" data-src="img/mg1.jpg" alt="" class="img-fluid lazy"
+                            height="560px"
+                            data-srcset="img/mg1.jpg 1920w, img/mg1-1500.jpg 1500w, img/mg1-1000.jpg 1000w, img/mg1-500.jpg 500w">
                     </a>
                 </div>
                 <div class="col-md-4">
                     <a href="img/mg2.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="560"
                         data-width="560">
-                        <img data-src="img/mg2.jpg" alt="" class="img-fluid lazy" height="560px" data-srcset="img/mg2.jpg 1920w, img/mg2-1500.jpg 1500w, img/mg2-1000.jpg 1000w, img/mg2-500.jpg 500w">
+                        <img src="img/placeholder.jpg" data-src="img/mg2.jpg" alt="" class="img-fluid lazy"
+                            height="560px"
+                            data-srcset="img/mg2.jpg 1920w, img/mg2-1500.jpg 1500w, img/mg2-1000.jpg 1000w, img/mg2-500.jpg 500w">
                     </a>
                 </div>
                 <div class="col-md-4">
                     <a href="img/mg3.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="560"
                         data-width="560">
-                        <img data-src="img/mg3.jpg" alt="" class="img-fluid lazy" height="560px" data-srcset="img/mg3.jpg 1920w, img/mg3-1500.jpg 1500w, img/mg3-1000.jpg 1000w, img/mg3-500.jpg 500w">
+                        <img src="img/placeholder.jpg" data-src="img/mg3.jpg" alt="" class="img-fluid lazy"
+                            height="560px"
+                            data-srcset="img/mg3.jpg 1920w, img/mg3-1500.jpg 1500w, img/mg3-1000.jpg 1000w, img/mg3-500.jpg 500w">
                     </a>
                 </div>
             </div>
@@ -192,25 +203,30 @@
                 <div class="col-md-4">
                     <a href="img/mg4.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="560"
                         data-width="560">
-                        <img data-src="img/mg4.jpg" alt="" class="img-fluid lazy" height="560px" data-srcset="img/mg4.jpg 1920w, img/mg4-1500.jpg 1500w, img/mg4-1000.jpg 1000w, img/mg4-500.jpg 500w">
+                        <img src="img/placeholder.jpg" data-src="img/mg4.jpg" alt="" class="img-fluid lazy"
+                            height="560px"
+                            data-srcset="img/mg4.jpg 1920w, img/mg4-1500.jpg 1500w, img/mg4-1000.jpg 1000w, img/mg4-500.jpg 500w">
                     </a>
                 </div>
                 <div class="col-md-4">
                     <a href="img/mg5.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="560"
                         data-width="560">
-                        <img data-src="img/mg5.jpg" alt="" class="img-fluid lazy" height="560px" data-srcset="img/mg5.jpg 1920w, img/mg5-1500.jpg 1500w, img/mg5-1000.jpg 1000w, img/mg5-500.jpg 500w">
+                        <img src="img/placeholder.jpg" data-src="img/mg5.jpg" alt="" class="img-fluid lazy"
+                            height="560px"
+                            data-srcset="img/mg5.jpg 1920w, img/mg5-1500.jpg 1500w, img/mg5-1000.jpg 1000w, img/mg5-500.jpg 500w">
                     </a>
                 </div>
                 <div class="col-md-4">
                     <a href="img/mg6.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="560"
                         data-width="560">
-                        <img data-src="img/mg6.jpg" alt="" class="img-fluid lazy" height="560px" data-srcset="img/mg6.jpg 1920w, img/mg6-1500.jpg 1500w, img/mg6-1000.jpg 1000w, img/mg6-500.jpg 500w">
+                        <img src="img/placeholder.jpg" data-src="img/mg6.jpg" alt="" class="img-fluid lazy"
+                            height="560px"
+                            data-srcset="img/mg6.jpg 1920w, img/mg6-1500.jpg 1500w, img/mg6-1000.jpg 1000w, img/mg6-500.jpg 500w">
                     </a>
                 </div>
             </div>
         </div>
     </section>
-
     <!-- News -->
     <section id="newsLetter" class="text-center p-5 bg-dark text-white">
         <div class="container">
@@ -221,7 +237,7 @@
                     <form class="form-inline justify-content-center">
                         <input type="text" class="form-control mb-2 mr-2" placeholder="Enter Name">
                         <input type="email" class="form-control mb-2 mr-2" placeholder="Email">
-                        <button class="btn btn-primary mb-2">Submit</button>
+                        <button type="button" class="btn btn-primary mb-2">Submit</button>
                     </form>
                 </div>
             </div>
@@ -236,9 +252,9 @@
                     <p class="my-auto">Copyright &copy; <span id="year"></span></p>
                 </div>
                 <div class="col-md-6 ml-auto">
-                    <a href="#"><i class="fab fa-facebook-f fa-2x mx-1"></i></a>
-                    <a href="#"><i class="fab fa-twitter fa-2x mx-1"></i></a>
-                    <a href="#"><i class="fab fa-reddit-alien fa-2x mx-1"></i></a>
+                    <a href="javascript:void(0);"><i class="fab fa-facebook-f fa-2x mx-1"></i></a>
+                    <a href="javascript:void(0);"><i class="fab fa-twitter fa-2x mx-1"></i></a>
+                    <a href="javascript:void(0);"><i class="fab fa-reddit-alien fa-2x mx-1"></i></a>
                 </div>
             </div>
         </div>
@@ -259,10 +275,21 @@
     </div>
 
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"
         integrity="sha256-Y1rRlwTzT5K5hhCBfAFWABD4cU13QGuRN6P5apfWzVs=" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>

@@ -16,6 +16,18 @@ body {
 .contact-footer{
     margin-top: auto;
 }
+.black-color{
+    color: #000;
+}
+.gallery-text{
+    font-size: 1.5rem;
+}
+/* about */
+#about p{
+    font-size:1.2rem;
+}
+
+
 
 
 .navbar .nav-link {
@@ -35,7 +47,7 @@ body {
 }
 
 .carousel-image-1 {
-    background: url(../img/mars1.jpg)no-repeat center center;
+    background: url(../img/mars1.jpg)no-repeat center center/cover;
 }
 
 .carousel-image-2 {
@@ -49,10 +61,15 @@ body {
 #home-heading {
     position: relative;
     min-height: 400px;
-    background: url(../img/marsoverlay.jpg)no-repeat center center/cover;
+    background:linear-gradient(
+        rgba(20,20,20, .5), 
+        rgba(20,20,20, .5)),
+        url(../img/marsoverlay.jpg)no-repeat center center/cover;
     background-attachment: fixed;
     text-align: center;
     color: #fff;
+    font-size: 1.5rem;
+    
 
 }
 
@@ -95,7 +112,9 @@ body {
 
 #page-header2 {
     height: 200px;
-    background: url("../img/services.png")no-repeat center center/cover;
+    background:linear-gradient(
+        rgba(20,20,20, .4), 
+        rgba(20,20,20, .4)), url("../img/services.png")no-repeat center center/cover;
     /* background-position: 0 -280px;
     background-attachment: fixed; */
     color: #fff;
@@ -116,7 +135,9 @@ body {
 
 #page-header4 {
     height: 200px;
-    background: url("../img/mg5.jpg")no-repeat center center/cover;
+    background:linear-gradient(
+        rgba(20,20,20, .4), 
+        rgba(20,20,20, .4)), url("../img/mg5.jpg")no-repeat center center/cover;
     /* background-position: 0 -280px; */
     /* background-attachment: fixed; */
     color: #fff;
@@ -189,3 +210,64 @@ h1 {
     font-weight: 500;
 
 }
+/* Career section */
+
+/* Blog Section */
+#page-header,#page-header2,#page-header3,#page-header4 p{
+    font-size: 1.2rem;
+}
+/* For Carousel */
+@media screen and (max-width: 500px) {
+    .carousel-image-1 {
+        background: url(../img/mars1-500.jpg)no-repeat center center/cover;
+    }
+    
+    .carousel-image-2 {
+        background: url(../img/mars3-500.jpg)no-repeat center center/cover;
+    }
+    
+    .carousel-image-3 {
+        background: url(../img/mars4-500.jpg)no-repeat center center/cover;
+    }
+ 
+  }
+  @media screen and (min-width: 1000px) {
+    .carousel-image-1 {
+        background: url(../img/mars1-1000.jpg)no-repeat center center/cover;
+    }
+    
+    .carousel-image-2 {
+        background: url(../img/mars3-1000.jpg)no-repeat center center/cover;
+    }
+    
+    .carousel-image-3 {
+        background: url(../img/mars4-1000.jpg)no-repeat center center/cover;
+    }
+
+  }
+  @media screen and (min-width: 1500px ) and (max-width:1919px) {
+    .carousel-image-1 {
+        background: url(../img/mars1-1500.jpg)no-repeat center center/cover;
+    }
+    
+    .carousel-image-2 {
+        background: url(../img/mars3-1500.jpg)no-repeat center center/cover;
+    }
+    
+    .carousel-image-3 {
+        background: url(../img/mars4-1500.jpg)no-repeat center center/cover;
+    }
+  }
+  @media screen and (min-width: 1920px ) {
+    .carousel-image-1 {
+        background: url(../img/mars1.jpg)no-repeat center center/cover;
+    }
+    
+    .carousel-image-2 {
+        background: url(../img/mars3.jpg)no-repeat center center/cover;
+    }
+    
+    .carousel-image-3 {
+        background: url(../img/mars4.jpg)no-repeat center center/cover;
+    }
+  }
